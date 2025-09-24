@@ -25,8 +25,13 @@ body{
   display:flex; gap:20px; align-items:center; padding:20px 0 12px; border-bottom:1px solid var(--border);
 }
 .header img{
-  width:96px; height:96px; object-fit:cover; border-radius:50%;
-  border: 1px solid var(--border); background: #fff;
+  width:96px; height:96px;
+  object-fit:cover;
+  border-radius:50%;
+  border: 1px solid var(--border);
+  background: #fff;
+}
+  
 }
 .brand{flex:1}
 .brand h1{font-size:1.8rem; margin:0}
