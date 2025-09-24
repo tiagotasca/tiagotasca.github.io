@@ -24,11 +24,13 @@ body{
 .header{
   display:flex; gap:20px; align-items:center; padding:20px 0 12px; border-bottom:1px solid var(--border);
 }
-.header img{
-  width:96px; height:96px;
-  object-fit:cover;
-  border-radius:50%;
-  border: 1px solid var(--border);
+.header img {
+  width: 160px;      /* aumenta o tamanho */
+  height: 160px;     /* mantém formato circular */
+  object-fit: cover; /* garante que a imagem preenche sem distorcer */
+  object-position: center; /* força o recorte centralizado */
+  border-radius: 50%; /* mantém o círculo */
+  border: 2px solid var(--border); /* borda um pouco mais visível */
   background: #fff;
 }
   
