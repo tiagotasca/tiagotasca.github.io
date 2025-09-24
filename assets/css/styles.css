@@ -28,12 +28,13 @@ body{
   width: 160px;
   height: 160px;
   object-fit: cover;
-  object-position: center;
+  object-position: center top; /* mostra mais a parte de cima da foto */
   border-radius: 50%;
   border: 2px solid var(--border);
   background: #fff;
-  transform: scale(0.85);   /* menor que 1 = encolhe a imagem */
+  transform: scale(0.85);
 }
+
 
   
 }
