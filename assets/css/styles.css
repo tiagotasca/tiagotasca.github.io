@@ -93,14 +93,16 @@ kbd{
 .gallery figure {
   margin: 0;
   text-align: center;
+  overflow: hidden; /* evita que a imagem estoure o container */
 }
 
 .gallery img {
   width: 100%;
-  max-width: 450px;
-  height: auto;
+  height: 300px; /* altura fixa para padronizar */
+  object-fit: cover; /* recorta proporcionalmente sem distorcer */
   border-radius: 10px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  display: block;
 }
 
 .gallery figcaption {
@@ -108,4 +110,5 @@ kbd{
   color: #555;
   margin-top: 0.5rem;
 }
+
 
